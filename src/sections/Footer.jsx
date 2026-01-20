@@ -17,10 +17,10 @@ import {
  */
 const socials = [
   // { Icon: FaYoutube, label: "YouTube", href: "https://www.youtube.com/@gauravbitss" },
-  { Icon: FaXTwitter, label: "X", href: "https://x.com/gauravbuilds" },
-  { Icon: FaLinkedinIn, label: "LinkedIn", href: "https://www.linkedin.com/in/gaurav-gupta-4179671b0/" },
-  { Icon: FaInstagram, label: "Instagram", href: "https://www.instagram.com/gauravbits/" },
-  { Icon: FaGithub, label: "GitHub", href: "https://github.com/gauravgupta364" },
+  { Icon: FaXTwitter, label: "X", href: "https://x.com/MNarnoliya55217" },
+  { Icon: FaLinkedinIn, label: "LinkedIn", href: "https://www.linkedin.com/in/mayank-narnoliya-72636a368?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BXZvLKrcOTt2vy1duG5NTPg%3D%3D" },
+  { Icon: FaInstagram, label: "Instagram", href: "https://www.instagram.com/mayank_narnoliya" },
+  { Icon: FaGithub, label: "GitHub", href: "https://github.com/mayanknarnoliya" },
 ];
 
 /**
