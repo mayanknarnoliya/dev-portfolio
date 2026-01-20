@@ -1,5 +1,5 @@
 import {FaJava , FaReact} from 'react-icons/fa';
-import {SiNextdotjs, SiTypescript, SiTailwindcss, SiFastapi, SiPython, SiDocker, SiMongodb, SiAngular, SiPostman, SiGithub} from 'react-icons/si';
+import {SiNextdotjs, SiTypescript, SiTailwindcss, SiFastapi, SiPython, SiDocker, SiMongodb, SiAngular, SiPostman, SiGithub, SiShopify, SiWordpress} from 'react-icons/si';
 import {DiNodejsSmall} from 'react-icons/di';
 import { motion, useMotionValue } from 'framer-motion';
 import { useEffect, useRef, useState } from 'react';
@@ -20,6 +20,8 @@ const skills = [
     { icon: <SiMongodb />, name: "MongoDB" },
     { icon: <SiPostman />, name: "Postman" },
     { icon: <SiGithub />, name: "Github" },
+    { icon: <SiShopify />, name: "Shopify" },
+    { icon: <SiWordpress />, name: "Wordpress" },
     // { icon: <SiAngular />, name: "Angular" },
   ];
 const repeated = [...skills , ...skills]
