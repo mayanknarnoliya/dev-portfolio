@@ -8,10 +8,10 @@ import { motion, useScroll, AnimatePresence } from "framer-motion";
 
 // Importing project images (desktop & mobile versions)
 import img1 from "../assets/img1.png";
-// import img2 from "../assets/img2.JPG";
+import img2 from "../assets/img2.png";
 // import img3 from "../assets/img3.JPG";
 import photo1 from "../assets/photo1.png";
-// import photo2 from "../assets/photo2.PNG";
+import photo2 from "../assets/photo2.png";
 // import photo3 from "../assets/photo3.png";
 
 const MH3 = motion.h3; 
@@ -53,12 +53,12 @@ export default function Projects() {
         bgColor: "#111827",
         image: isMobile ? photo1 : img1, // Mobile vs desktop image
       },
-      // {
-      //   title: "Gamily",
-      //   link: "https://gamilyapp.com/",
-      //   bgColor: "#3884d3",
-      //   image: isMobile ? photo2 : img2,
-      // },
+      {
+        title: "hand-controlled-3d-particles",
+        link: "https://hand-controlled-3d-particles.netlify.app/",
+        bgColor: "#1b2236",
+        image: isMobile ? photo2 : img2,
+      },
       // {
       //   title: "Hungry Tiger",
       //   link: "https://www.eathungrytiger.com/",
